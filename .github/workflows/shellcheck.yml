@@ -34,7 +34,7 @@ jobs:
     name: test isopatch by running it
     runs-on: ubuntu-22.04
     container:
-      image: fedora:38
+      image: fedora:37
       options: --privileged
     steps:
       # Checkout push-to-registry action GitHub repository
