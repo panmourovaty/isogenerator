@@ -1,4 +1,4 @@
-FROM fedora:37
+FROM fedora:38
 
 COPY ./deps.txt /tmp/deps.txt
 RUN dnf install \
