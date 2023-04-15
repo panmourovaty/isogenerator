@@ -1,5 +1,3 @@
 ublue_variants:
-  - label: panmourovaty/uflinux2
+  - label: uflinux2
     ks: /kickstart/uflinux.ks
-    flavors:
-      - label: main
